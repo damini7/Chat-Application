@@ -8,7 +8,7 @@ const Chatbox = ({ fetchAgain, setFetchAgain }) => {
 
   return (
     <Box
-      d="flex" 
+      display="flex" 
       
       alignItems="center"
       flexDir="column"

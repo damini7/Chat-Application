@@ -13,9 +13,9 @@ const Homepage = ()=>{
     if (user) history.push("/chats");
   }, [history]);
     return(
-    <Container maxW='xl' >
+    <Container maxW='xl'centerContent >
            <Box  centerContent
-        d="flex"
+        display="flex"
         justifyContent="center"
         p={3}
         bg="white"
@@ -24,7 +24,7 @@ const Homepage = ()=>{
         borderRadius="lg"
         borderWidth="1px"
       >
-        <Text fontSize='4xl' fontFamily="Work sans" centerContent color="black" >Chit-Chat</Text>
+        <Text fontSize='4xl' fontFamily="Work sans" centerContent color="black"  >Chit-Chat</Text>
         </Box>
         <Box bg="white" w="100%" p={4} borderRadius="lg" borderWidth="1px">
         <Tabs isFitted variant="soft-rounded">

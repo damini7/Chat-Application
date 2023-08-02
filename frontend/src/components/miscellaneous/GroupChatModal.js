@@ -156,7 +156,7 @@ import {
                   onChange={(e) => handleSearch(e.target.value)}
                 />
               </FormControl>
-              <Box w="100%" d="flex" flexWrap="wrap">
+              <Box w="100%" display="flex" flexWrap="wrap">
                 {selectedUsers.map((u) => (
                   <UserBadgeItem
                     key={u._id}
