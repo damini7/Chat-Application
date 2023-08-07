@@ -33,6 +33,7 @@ app.get("*",(req,res)=>{
     res.send("API is running succes..");
   });
 }
+//------------
 
   app.use(notFound);
   app.use(errorHandler);
